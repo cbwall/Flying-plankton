@@ -1,0 +1,5 @@
+            Df Sum Sq Mean Sq F value   Pr(>F)    
+speed        1  21185   21185   89.57 1.49e-12 ***
+Residuals   48  11354     237                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
