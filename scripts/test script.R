@@ -18,6 +18,8 @@
 ## 5. To make changes, clone the repo, then fork it (you work on the fork)
 ##    then submit changes through doing the "commit" and "push" to your fork
 
+######## Now you try! See chapter 8.4 -onward on collaborating and cloning a repository with RStudio
+
 ############## Let's try
 
 # load some data
