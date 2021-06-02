@@ -57,7 +57,7 @@ capture.output(summary(anova),file="output/anova.test.csv")
 ############# 
 
 # simple historgram with some labels
-fig.CT<-hist(cars$speed, col="green", main="CTran test fig: Car Speed", xlab="speed (mph)"); fig.CW
+fig.CT<-hist(cars$speed, col="mediumseagreen", main="CTran test fig: Car Speed", xlab="speed (mph)"); fig.CT
 
 # export in directory and save as pdf
 dev.print(pdf, "figures/CTran.testfig.pdf", height=4, width=5)
