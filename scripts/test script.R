@@ -62,3 +62,6 @@ fig.CT<-hist(cars$speed, col="blue", main="CTran test fig: Car Speed", xlab="spe
 # export in directory and save as pdf
 dev.print(pdf, "figures/CTran.testfig.pdf", height=4, width=5)
 dev.off()
+
+#Josh Change 
+fig.JD <- hist(cars$speed, col="salmon", main= "JD test fig: Car Speed", xlab="speed(mph)"); fig.JD
