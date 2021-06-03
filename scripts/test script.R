@@ -49,7 +49,7 @@ dev.off()
 
 # make an output table
 anova<-aov(dist~speed, data=cars)
-summary(anova)
+summary(anova) # this is the right output
 
 #export it to wordfile
 capture.output(summary(anova),file="output/anova.test.csv")
