@@ -62,3 +62,13 @@ fig.CT<-hist(cars$speed, col="blue", main="CTran test fig: Car Speed", xlab="spe
 # export in directory and save as pdf
 dev.print(pdf, "figures/CTran.testfig.pdf", height=4, width=5)
 dev.off()
+
+############# Isidora test
+
+# simple historgram with some labels
+fig.IE<-hist(cars$speed, col="blue", main="IEchenique test fig: Car Speed", xlab="speed (mph)"); fig.IE
+
+# export in directory and save as pdf
+dev.print(pdf, "figures/IEchenique.testfig.pdf", height=4, width=5)
+dev.off()
+
