@@ -2,7 +2,7 @@ library(tidyverse)
 
 # data processing
 
-asv_table <- read.table("data/ASV_counts_5mincount_withTax_NoNorm_2021.05.21_IE.csv", sep = ";", header = TRUE)
+asv_table <- read.table("Data/ASV_counts_5mincount_withTax_NoNorm_2021.05.21_IE.csv", sep = ";", header = TRUE)
 
 metadata <- read.csv("Data/Sample metadata_2021.07.csv")
 
@@ -39,5 +39,5 @@ rownames(asv_table) <- sample_name
 #reorder metadata table to align with asv table
 metadata <- metadata[match(rownames(asv_table), metadata$sample_name),]
 
-save(asv_table, taxonomy, metadata, file = "data/clean_data_2021.Rdata")
+save(asv_table, taxonomy, metadata, file = "Data/clean_data_2021.Rdata")
 
